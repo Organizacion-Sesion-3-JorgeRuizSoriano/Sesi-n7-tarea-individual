@@ -10,11 +10,11 @@ Los ejercicios del tema de Shell Scrip son los siguientes:
 
 Un número factorial se calcula de la siguiente manera:
 
-N!=1 x 2 x 3 x 4 x…x (n-1)  x N
+	N!=1 x 2 x 3 x 4 x…x (n-1)  x N
 
 Por ejemplo, el 5 factorial (escrito 5!) sería:
 
-5!=1 x 2 x 3 x 4 x 5=120
+	5!=1 x 2 x 3 x 4 x 5=120
 
 
 
@@ -27,9 +27,9 @@ Por ejemplo, el 5 factorial (escrito 5!) sería:
 3- (0,70 puntos)  Escribe un script que calcule el tamaño de una lista de dimensión desconocida.
 La lista está contenida dentro del script.
 Por ejemplo estas listas:
-LISTA1="Lentejas Guistantes Huevos Naranjas Peras Manzanas Sandía Macarrones Tomate"
-LISTA2="Rojo Azul Amarillo Blanco"
-LISTA3="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18"
+	LISTA1="Lentejas Guistantes Huevos Naranjas Peras Manzanas Sandía Macarrones Tomate"
+	LISTA2="Rojo Azul Amarillo Blanco"
+	LISTA3="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18"
 
 
 (0,80 puntos) Escribe un script que pida un password por teclado, lo compare con el password guardado en el fichero password.txt (solo contiene el password) y hasta que no coincidan no te deje continuar
@@ -70,9 +70,10 @@ B- (1 Punto) Haz un script que verifique dentro del directorio FILES/ que existe
 
 
 C- (0,50 Puntos) Modificar los permisos de todos los archivos dentro de FILES/ de la siguiente manera:
-rwx – rw- - r-- 	Contiene el número 4
-rw- – rw- - rw- 	Contiene el número 3
-rw- – r-x - rwx 	Contiene el número 1
+
+	rwx – rw- - r-- 	Contiene el número 4
+	rw- – rw- - rw- 	Contiene el número 3
+	rw- – r-x - rwx 	Contiene el número 1
 
 
 
